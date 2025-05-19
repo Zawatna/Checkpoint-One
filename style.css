@@ -1,5 +1,6 @@
 body {
-    background-color: bisque;
+    background-color: lightblue;
+    margin: 0px;
 }
 
 .bg-green {
@@ -15,15 +16,6 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-
-
-.bg-image {
-    background-image: url("https://images.unsplash.com/photo-1745328597893-b1adf32efd8b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\IMG_8301.png");
-    background-size: cover;
-    min-height: 50dvh;
-    width: 100%
-}
-
 
 .rehearse-img {
     display: flex;
@@ -48,5 +40,14 @@ body {
 
     .magic-offset {
         margin-bottom: -20em;
+    }
+
+    .bg-image {
+        background-image: url("https://images.unsplash.com/photo-1745328597533-3df3e5db2dec?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: cover;
+        background-position: center;
+        min-height: 80dvh;
+        width: 100%;
+
     }
 }
